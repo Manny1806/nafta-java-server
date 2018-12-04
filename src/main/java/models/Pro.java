@@ -13,6 +13,10 @@ public class Pro {
     private String type;
     private String imgLink;
 
+    public String getId(){
+        return id;
+    }
+
     public String getTitle(){
         return title;
     }
